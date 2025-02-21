@@ -43,7 +43,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 
-SESSION_ID: process.env.SESSION_ID === undefined ? '' : process.env.SESSION_ID,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'Manu-MD&we9j1DKI#5aH4-MmH909j6vpBukQmdwFxpmvYd-NraiuPIHXWbg8' : process.env.SESSION_ID,
 PREFIX: process.env.PREFIX || '.' ,
 PORT: process.env.PORT === undefined ? "8000" : process.env.PORT,
 SUDO: process.env.SUDO === undefined ? '94742274855' : process.env.SUDO,
@@ -62,7 +62,7 @@ RECORDING: process.env.RECORDING === undefined ? "true" : process.env.RECORDING,
 AI_CHAT: process.env.AI_CHAT === undefined ? "false" : process.env.AI_CHAT,
 AUTO_REACT: process.env.AUTO_REACT === undefined ? "false" : process.env.AUTO_REACT,
 AUTO_TYPING: process.env.AUTO_TYPING === undefined ? 'false' : process.env.AUTO_TYPING,
-AUTO_BIO: process.env.AUTO_BIO === undefined ? 'true' : process.env.AUTO_BIO,
+AUTO_BIO: process.env.AUTO_BIO === undefined ? 'false' : process.env.AUTO_BIO,
 ANTI_STICKER: process.env.ANTI_STICKER === undefined ? 'false' : process.env.ANTI_STICKER,
 ANTI_PHOTO: process.env.ANTI_PHOTO === undefined ? 'false' : process.env.ANTI_PHOTO,
 MOROCCO_BLOCK: process.env.MOROCCO_BLOCK === undefined ? 'false' : process.env.MOROCCO_BLOCK,
